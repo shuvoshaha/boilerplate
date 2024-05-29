@@ -1,0 +1,40 @@
+
+
+name: $(SourceBranchName)_$(BuildId)
+
+trigger: none 
+
+resources:
+  repositories:
+    - repository: templates
+      name: uaa-azdo-templates
+      type: git 
+      ref: ${{parameters.template_branch}}
+
+pool: 
+  name: linux
+    
+parameters:
+  - name: template_branch
+    displayName: Template Repo Branch
+    default: develop 
+  - name: pnpm_build_cmd
+    displayName: "NPM Build Command"
+    default: 'build'
+  - name: buildArtifact
+    displayName: "Build Artifact"
+    default: false
+    type: boolean
+    values:
+    - true
+    - false
+
+variables:
+- template: variables/360-app.yml@templates
+  parameters:
+    npmBuild: ${{ parameters.pnpm_build_cmd}}
+    buildArtifact: ${{ parameters.buildArtifact}}
+
+extends: 
+  template: node-app/ci-build.yml@templates
+

@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "removeComments": true,
+        "baseUrl": "src",
+        "preserveConstEnums": true,
+        "paths": {
+            "@base/*" : ["./base/*", "./base"],
+            "@images/*" : ["./assets/images/*", "./assets/images"],
+            "@styles/*": ["./base/style/*", "./base/style" ],
+            "@navigation/*" : ["./navigation/*", "./navigation"],
+            "@layout/*" : ["./layout/*", "./layout"],
+            "@components/*" : ["./base/components/*", "./base/components"],
+            "@interface/*" :  ["./interface/*", "./interface"],
+            "@utils/*" :  ["./utils/*", "./utils"],
+            "@view/*" : ["./view/*", "./view"],
+            "@config/*" : ["./config/*", "./config"]
+        
+        },
+        "lib": [
+            "DOM",
+            "ESNext"
+        ],
+        "jsx": "react-jsx",
+        "noEmit": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true
+        // "allowJs": true /* Allow javascript files to be compiled. Useful when migrating JS to TS */,
+        // "checkJs": true /* Report errors in .js files. Works in tandem with allowJs. */,
+    },
+    // will implement module configuration 
+    "include": [
+        "src/**/*", 
+        "public/"
+    ],
+    "exclude": ["node_modules"]
+}

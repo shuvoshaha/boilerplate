@@ -1,0 +1,14 @@
+<svg id="Component_1054_2" data-name="Component 1054 – 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="300.715" viewBox="0 0 375 300.715">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.508" y1="0.205" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#59a75f"/>
+      <stop offset="1" stop-color="#298e9b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0.21" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7abf67"/>
+      <stop offset="1" stop-color="#3ba4a2"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_6" data-name="Rectangle 6" width="375" height="300" transform="translate(0 0.715)" fill="url(#linear-gradient)"/>
+  <path id="Path_32" data-name="Path 32" d="M3101-1038.715c114.6-108.1,113.946-300,113.946-300H3261v300Z" transform="translate(-2886.004 1338.715)" fill="url(#linear-gradient-2)"/>
+</svg>

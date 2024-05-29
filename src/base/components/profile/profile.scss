@@ -1,0 +1,171 @@
+@import '@styles/variable.scss';
+
+.side__bar {
+
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    height: 100vh;
+    background: #7474749e;
+    cursor: auto;
+    z-index: 1;
+    width: 800px;
+    max-width: 100%;
+    transition: 0.3s ease-out;
+
+
+    .profile {
+        position: absolute;
+        left: 0;
+        transition: 0.3s;
+        height: 100vh;
+        margin: 0 auto;
+        overflow-x: hidden;
+        border-left: 1px solid $border_color;
+        align-items: center;
+        background-color: white;
+        border-radius: 0 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-image {
+        width: 80px;
+        margin: 0 auto;
+        background: linear-gradient(180deg, rgba(0, 122, 188, 1) 0%, rgba(164, 206, 78, 1) 100%);
+        padding: 1rem;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+
+    .img-div {
+        position: relative;
+        margin-top: 3rem;
+    }
+
+    .profile-image-edit-icon {
+        width: 0;
+        background: $primary;
+        border: 1px solid white;
+        padding: 0.8rem;
+        position: absolute;
+        right: 124px;
+        bottom: 0;
+        border-radius: 50%;
+    }
+
+    .profile-icon {
+        height: 24px;
+        width: 35px;
+    }
+
+    //name-section
+
+    .name-div {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-name {
+        font-size: 17px;
+        color: $header;
+        font-weight: 800;
+    }
+
+    .designation {
+        font-size: 16px;
+        font-weight: 400;
+        color: $header;
+        margin-top: 5px;
+    }
+
+    .profile-button {
+        margin-top: 10px;
+        background-color: $primary;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 7px 20px;
+        border-radius: 50px;
+    }
+
+    .profile-button-text {
+        font-size: 14px;
+        color: #FFFFFF;
+        font-weight: 300;
+        margin-right: 5px;
+    }
+
+    .profile-button-icon {
+        height: 12px;
+        width: 7.71px;
+    }
+
+    // horizontal-line
+    .horizontal-line-div {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .horizontal-line {
+        height: 2px;
+        width: 289px;
+        background: linear-gradient(270deg, rgba(0, 122, 188, 1) 0%, rgba(164, 206, 78, 1) 100%);
+    }
+
+    // sidebar-options
+    .sidebar-options {
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+    }
+
+    .options-header {
+        margin-top: 21px;
+        font-size: 16px;
+        color: $header;
+        font-weight: 600;
+    }
+
+    .option-div {
+        display: flex;
+        margin-top: 18px;
+    }
+
+
+    .option {
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .side__link {
+        ul {
+            list-style: none;
+
+            li {
+                a {
+                    text-decoration: none;
+                    transition: all 0.3s ease-out;
+                    font-size: 16px;
+                    color: $primary;
+
+                    &:hover {
+                        opacity: 80%;
+                    }
+                }
+
+                a.active {
+                    color: #93c65a;
+                }
+            }
+        }
+    }
+}

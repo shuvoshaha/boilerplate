@@ -1,0 +1,24 @@
+// empty
+@import '@styles/variable.scss';
+
+.empty {
+    min-height: 70vh;
+    @include size;
+    overflow: hidden;
+    margin: 1rem auto;
+    @include flexo(flex, flex-start, center);
+
+    .empty__body {
+        @include flexo(flex, center, center);
+        flex-direction: column;
+
+        img {
+            text-align: center
+        }
+
+        p {
+            @include title(#000, 1rem, 800);
+            text-align: center;
+        }
+    }
+}

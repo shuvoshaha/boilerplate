@@ -1,0 +1,32 @@
+@import '@styles/variable.scss';
+
+.__layout::-webkit-scrollbar {
+    width: 3px;
+    height: 5px;
+    
+    &:hover {
+        width: 10px;
+    }
+ }
+
+ .__layout::-webkit-scrollbar-track {
+    background: #cecdcd;
+    height: 5px;
+
+}
+
+.__layout::-webkit-scrollbar-thumb {
+    background-color: #a9a6a6;
+    border-radius: 25px;
+    height: 5px;
+
+}
+
+.__layout {
+    @include size;  
+    scrollbar-width: 5px;
+    margin: 0 auto;
+    // max-height: 100vh;
+    // overflow: auto;
+}
+

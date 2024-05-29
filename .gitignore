@@ -1,0 +1,6 @@
+node_modules/
+dist
+dist.zip
+build.zip
+yarn.lock
+package-lock.json

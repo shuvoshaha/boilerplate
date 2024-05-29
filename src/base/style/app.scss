@@ -1,0 +1,64 @@
+@import "'https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700;800;900&family=Source+Sans+Pro&display=swap'";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+   
+}
+
+html::-webkit-scrollbar {
+    width: 0; 
+ }
+
+html::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #888888;
+  border-radius: 25px;
+}
+
+.container {
+    max-width: 95%;
+    padding: 0 10px;
+    margin: auto;
+    
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-10 {
+    width: 83.3333333333%;
+}
+
+.col-8 {
+    width: 66.6666666666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-4 {
+    width: 33.33333333%;
+
+}
+
+.col-2 {
+    width: 16.6666666667%;
+
+}
+
+p , h1 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 0.875rem;
+}

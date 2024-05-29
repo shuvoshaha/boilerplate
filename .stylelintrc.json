@@ -1,0 +1,47 @@
+{
+    "extends": [
+        "stylelint-config-standard-scss",
+        "stylelint-config-prettier-scss"
+    ],
+    "ignoreFiles": [
+        "node_modules",
+        "dist"
+    ],
+    "rules": {
+        "alpha-value-notation": null,
+        "at-rule-no-vendor-prefix": null,
+        "color-function-notation": null,
+        "color-hex-length": null,
+        "comment-empty-line-before": null,
+        "comment-whitespace-inside": null,
+        "declaration-block-no-duplicate-properties": null,
+        "declaration-block-no-redundant-longhand-properties": null,
+        "declaration-block-no-shorthand-property-overrides": null,
+        "declaration-empty-line-before": null,
+        "font-family-name-quotes": null,
+        "font-family-no-missing-generic-family-keyword": null,
+        "keyframes-name-pattern": null,
+        "keyframe-selector-notation": null,
+        "media-feature-name-no-vendor-prefix": null,
+        "no-descending-specificity": null,
+        "no-duplicate-selectors": null,
+        "no-empty-source": null,
+        "number-max-precision": 10,
+        "property-no-vendor-prefix": null,
+        "rule-empty-line-before": null,
+        "scss/at-extend-no-missing-placeholder": null,
+        "scss/at-import-partial-extension": null,
+        "scss/at-mixin-argumentless-call-parentheses": null,
+        "scss/comment-no-empty": null,
+        "scss/dollar-variable-pattern": null,
+        "scss/double-slash-comment-empty-line-before": null,
+        "scss/double-slash-comment-whitespace-inside": null,
+        "selector-class-pattern": null,
+        "selector-no-vendor-prefix": null,
+        "selector-pseudo-class-no-unknown": null,
+        "selector-type-case": null,
+        "unit-no-unknown": null,
+        "value-keyword-case": null,
+        "value-no-vendor-prefix": null
+    }
+}

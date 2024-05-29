@@ -1,0 +1,96 @@
+$primary : #007ABC;
+$blue: #0090DA;
+$green: #A4CE4E;
+$secondary: #7ABF67;
+$header : #333333;
+$text: #707070;
+$bg: #F2F2F2;
+$expired: #DB181A;
+$label: #75787B;
+$border_color: #D9D9D6;
+$srcoll-bg: #cecdcd;
+$dark_grey: #75787B;
+$disable : #A7A8AA;
+
+@mixin size {
+    max-width: 800px;
+    width: 100%;
+
+
+    // @media screen and ( min-width: 500px ) {
+    //     max-width: 700px;
+    // }
+}
+
+@mixin flex($position: center) {
+    display: flex;
+    align-items: $position;
+}
+
+
+@mixin flexo ($display: flex, $position: center, $mood: space-between) {
+    display: $display;
+    align-items: $position;
+    justify-content: $mood;
+}
+
+@mixin title($color: #333333, $fontSize: 1rem, $weight: 500, $align: center) {
+    color: $color;
+    font-size: $fontSize;
+    font-weight: $weight;
+}
+
+
+@mixin button($border: none, $bg : $primary, $color: #fff, $size: 0.875rem, $width: 100%, $padding: 10px 10px) {
+    border: $border;
+    width: $width;
+    background: $bg;
+    padding: $padding;
+    border-radius: 5px;
+    font-size: $size;
+    font-weight: bold;
+    cursor: pointer;
+    color: $color;
+    transition: 0.3s ease-out;
+
+}
+
+@mixin link-button($border: none, $bg: $primary, $color: #fff, $size: 0.875rem, $padding: 10px 10px, $weight: 600) {
+    border: $border;
+    background: $bg;
+    padding: $padding;
+    font-size: $size;
+    font-weight: $weight;
+    cursor: pointer;
+    color: $color;
+    // transition: 0.3s ease-out;
+
+}
+
+@mixin scroll-width {
+    width: 5px;
+    height: 5px;
+}
+
+@mixin scrollbar-track {
+    background: $srcoll-bg;
+}
+
+@mixin scrollbar-thumb {
+    background-color: #888888;
+    border-radius: 25px;
+}
+
+@mixin scroll-none {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    -webkit-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+
+}
+
+@mixin gradient-border($width: 1px) {
+    border-width: 0 0 2px;
+    border-image: linear-gradient(to right, $blue, $green) 1;
+    border-style: solid;
+}
+

@@ -1,0 +1,14 @@
+<svg id="Component_279_22" data-name="Component 279 – 22" xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 88 88">
+  <rect id="Rectangle_12990" data-name="Rectangle 12990" width="88" height="88" fill="none"/>
+  <rect id="Rectangle_779" data-name="Rectangle 779" width="65.831" height="65.831" transform="translate(0 7.384)" fill="none"/>
+  <path id="Subtraction_42" data-name="Subtraction 42" d="M147.865-1587.02H132v-7.931h18.505a24.5,24.5,0,0,0-2.64,7.93Z" transform="translate(-116.137 1632.474)" fill="#d9d9d6"/>
+  <path id="Subtraction_43" data-name="Subtraction 43" d="M152.889-1567.984H132v-7.932h16.7a24.565,24.565,0,0,0,4.186,7.93Z" transform="translate(-116.137 1632.474)" fill="#d9d9d6"/>
+  <path id="Subtraction_44" data-name="Subtraction 44" d="M162.672-1600.069H132V-1608h46.8v6.848a24.78,24.78,0,0,0-6.5-.862,24.559,24.559,0,0,0-9.629,1.946h0Z" transform="translate(-116.137 1626.488)" fill="#d9d9d6"/>
+  <rect id="Rectangle_10424" data-name="Rectangle 10424" width="8.725" height="7.931" transform="translate(2.379 18.488)" fill="#d9d9d6"/>
+  <rect id="Rectangle_10425" data-name="Rectangle 10425" width="8.725" height="7.931" transform="translate(2.379 37.523)" fill="#d9d9d6"/>
+  <rect id="Rectangle_10426" data-name="Rectangle 10426" width="8.725" height="7.931" transform="translate(2.379 56.559)" fill="#d9d9d6"/>
+  <g id="Group_35466" data-name="Group 35466" transform="translate(36.058 29.32)">
+    <path id="utility-2_search_16p_HVR" d="M20.645,0A20.08,20.08,0,0,1,36.966,31.644L51.622,45.967,46.293,51.3,30.971,36.64c-9.327,5.663-21.651,3-27.314-6.329S.659,8.66,9.986,3A20.664,20.664,0,0,1,20.645,0Zm0,31.977A11.941,11.941,0,0,0,32.636,19.986,12.3,12.3,0,0,0,20.312,7.661,12.091,12.091,0,0,0,7.987,19.986,12.525,12.525,0,0,0,20.645,31.977Z" transform="translate(-0.7 0)" fill="#a7a8aa"/>
+    <path id="Union_25" data-name="Union 25" d="M-529.586-3442.258l-3.884,3.883-2.588-2.589,3.883-3.883-3.884-3.884,2.589-2.588,3.884,3.883,3.884-3.884,2.589,2.589-3.884,3.884,3.884,3.884-2.589,2.589Z" transform="translate(549.444 3464.394)" fill="#a7a8aa"/>
+  </g>
+</svg>
