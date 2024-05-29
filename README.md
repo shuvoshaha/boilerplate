@@ -1,7 +1,6 @@
-# Policy 360 
+# Boilerplate 
 
-### 1.0.0 [01-04-2023]
+### 1.0.0 [29-05-2024]
 
 ## Added
-- policy 360
-- agent 360
+- Start the journey
